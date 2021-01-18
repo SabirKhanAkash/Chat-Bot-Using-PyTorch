@@ -1,0 +1,81 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hello",
+				"hey",
+				"Whassup",
+				"what's up",
+				"Assalamu alaikum",
+				"Excuse me",
+				"Hi",
+				"Anyone there?",
+				"hola"
+			],
+			"responses": [
+				"Hello :D",
+				"Nice to meet you !",
+				"Greetings !",
+				"Hello ! How can I assist you?",
+				"How can I serve you?"
+			]
+		},
+		{
+			"tag": "inquiry",
+			"patterns": [
+				"what do you do?",
+				"what's your purpose?",
+				"tell me about yourself",
+				"How you serve your customer?",
+				"who are you?"
+			],
+			"responses": [
+				"I am a chat bot who can provide you with academic links",
+				"I'm here to help you, my dear friend !",
+				"Let me dive into my Database",
+				"I can search books and other links for you.",
+				"I'm searching",
+				"I provide links for educational good purpose."
+			]
+		},
+		{
+			"tag": "quote",
+			"patterns": [
+				"give me a motivational speech",
+				"motivate me",
+				"are you a philosopher?",
+				"can you talk a bit serious please?",
+				"Any other thoughts?",
+				"say something wise"
+			],
+			"responses": [
+				"Once a legend said, a light source in the tunnel does not always mean a way out, it may be a train :3",
+				"Follow your heart, but take your brain with as well :v",
+				"Never trust blindly any machine :|",
+				"Life is too short to be sad, Enjoy every 'bit' of your life even if it is 0 :3",
+				"You are wasting your time talking to a emotionless creature like me you know :3",
+				"Never take decisions too early, it may be costly in the long run :B"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"See you later",
+				"bye then",
+				"Ciao",
+				"Goodbye",
+				"Allah hafez",
+				"Tata"
+			],
+			"responses": [
+				"Thanks for stopping by :D",
+				"It was my pleasure to serve you !",
+				"Farewell !",
+				"Good bye, Dear",
+				"Have a nice day!",
+				"Thanks, visit us again later!"
+			]
+		}
+	]
+}
